@@ -1,0 +1,405 @@
+body {
+    font-family: "TradeGothic LT";
+}
+.container {  
+    max-width: 1440px;
+    margin: auto; 
+    overflow: hidden; 
+}
+.home {
+    background-image: url('images/image\ 59.png');
+    background-repeat: no-repeat;
+    padding-top: 40px;    
+}
+.main {
+    color: #FFFFFF;
+    height: 850px;
+}
+h1 {
+    font-family: 'Quattrocento';
+    font-size: 96px;
+    text-align: center;
+    font-weight: 100;
+    padding-top: 80px;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+.item1 {
+    margin-left: 25px;
+}
+.item2 {
+    margin-left: 284px;
+}
+.item3 {
+    margin-left: 127px;
+}
+.item4 {
+    margin-left: 80px;
+}
+.item5 {
+    margin-left: 95px;
+}
+.item6 {
+    margin-left: 317px;
+}
+.active {
+    border-bottom: solid 1px white;
+}
+nav ul li a:hover {
+    border-bottom: solid 1px white;
+}
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    opacity: 0.8;
+}
+.mainPoz {
+    font-size: 16px;
+    opacity: 0.9;
+    padding-top: 117px;
+    padding-left: 135px;
+    margin: 0;
+}
+.sectionName {
+    margin: 50px 0 0 740px;
+}
+.seba{
+    width: 640px;
+    height: 354px;
+    display: block;
+    margin: 75px auto;
+    position: relative;
+    z-index: 2;
+}
+.sticker{
+    color: #71870E;
+    font-size: 16px;
+    position: absolute;
+    top: 700px;
+    margin: 0;
+}
+
+.about, .truebalance, .process, .inspiration,
+.present, .discography, .soon, footer {
+    display: none;
+}
+
+.philosophy {
+    display: flex;
+    flex-wrap: wrap; 
+    margin-top: 100px;   
+}
+.philosophy1, .philosophy2 {
+    box-sizing: border-box;
+    flex: 1 0 360px
+}
+.philosophy1 {
+    padding-left: 135px;
+    padding-top: 70px;
+    position: relative;
+}
+.philosophy-name {
+    font-size: 14px;
+    opacity: 0.55;
+    float: left;
+    position: absolute;
+    top: 100px;
+}
+.unvisible {
+    color: white;
+}
+.philosophy-title {
+    font-size: 60px;
+    font-family: "OggLight";
+    font-weight: 300;
+    line-height: 64px;
+    margin: 0;
+}
+.italic {
+    font-family: "OggLightItalic";
+    font-weight: 700;
+}
+.green {
+    color: #71870E;
+}
+.philosophy-text1, .philosophy-text2 {
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.85;
+    padding-left: 150px;
+    margin: 0;
+}
+.philosophy-text1 {
+    padding-top: 100px;
+}
+.philosophy-text2 {
+    padding-top: 30px;
+}
+.readmore{
+    font-size: 16px;
+    color: #CD9A3D;
+    padding-left: 150px;
+    padding-top: 71px;
+}
+.ireadmore{
+    color: #CD9A3D;
+    font-size: 80px;
+    transform: rotate(90deg);
+    font-family: "OggLight";
+    margin: 0;
+    position: absolute;
+    bottom: -25px;
+    left: 200px;
+}
+.philosophy2 {
+    position: relative;
+}
+.img-philosophy1 {
+    width: 464px;
+    height: 634px;
+}
+.img-philosophy2 {
+    width: 260px;
+    height: 326px;
+    position: absolute;
+    top: 208px;
+    left: 343px;
+}
+
+/*booking*/
+.booking{
+    padding-top: 200px;
+    padding-left: 475px;
+    position: relative;
+    height: 1100px;
+}
+.booking-name {
+    font-size: 16px;
+    color: black;
+    opacity: 0.55;
+    position: absolute;
+    top: 206px;
+    left: 284px;
+}
+.booking-title {
+    font-size: 60px;
+    font-family: "Ogglight" ;
+    margin: 0;
+}
+.booking-text {
+    font-size: 16px;
+    color: #71870E;
+    padding-left: 151px;
+    padding-top: 100px;
+    margin: 0;
+}
+form {
+    padding-top: 100px;
+    font-size: 16px;
+    font-weight: 300;
+}
+input {
+    outline: none;
+}
+form div {
+    margin-bottom: 20px;
+}
+.form-text {
+    width: 605px;
+    border-bottom: solid 1px rgb(105, 105, 105);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 20px;
+}
+label {
+    font-family: "OggMedium" ;
+}
+.project-type {
+    width: 605px;
+    height: 60px;
+    border: none;
+    border-bottom: solid 1px rgb(105, 105, 105) ;
+}
+select {  
+  appearance: none;
+  overflow: hidden;
+  background: url('images/Vector.png') no-repeat right;
+}
+.form-radio {
+    font-size: 16px;
+    font-family: "oggMedium";
+    font-weight: 300;
+    margin-top: 30px;
+}
+.isend {
+    font-size: 96px;
+    font-family: "OggMedium";
+    color: #CD9A3D;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 626px;
+    top: 1095px
+    
+}
+.send {
+    font-family: "OggMedium";
+    color: #CD9A3D;
+    text-decoration: none;
+}
+.send-div {
+    margin-top: 44px;
+    margin-left: 230px;
+}
+
+@font-face {
+    font-family: "OggMediumItalic";
+    src: url(fonts/fonts/OggMediumItalic.woff2),
+         url(fonts/fonts/OggMediumItalic.woff);
+}
+@font-face {
+    font-family: "OggMedium" ;
+    src: url(fonts/fonts/OggMedium.woff2),
+         url(fonts/fonts/OggMedium.woff);
+}
+@font-face {
+    font-family: "TradeGothic LT";
+    src: url(fonts/fonts/Trade\ Gothic\ LT\ Extended.woff2),
+         url(fonts/fonts/Trade\ Gothic\ LT\ Extended.woff);
+}
+@font-face {
+    font-family: "Ogglight" ;
+    src: url(fonts/fonts/OggLight.woff2),
+         url(fonts/fonts/OggLight.woff);
+}
+@font-face {
+    font-family: "OggLightItalic";
+    src: url(fonts/fonts/OggLightItalic.woff2),
+         url(fonts/fonts/OggLightItalic.woff);
+}
+
+@media ( max-width: 320px ) {
+    .item1 {
+        margin-left: 10px;
+    }
+    .item2 {
+        margin-left: 10px;
+    }
+    .item3 {
+        margin-left: 10px;
+    }
+    .item4 {
+        margin-left: 10px;
+    }
+    .item5 {
+        margin-left: 10px;
+    }
+    .item6 {
+        margin-left: 10px;
+    }
+    
+    .seba{
+        width: 320px;
+        height: auto;
+       
+    }
+    .main {
+        height: 600px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .mainPoz, .sectionName {
+        display: none;
+    }
+    .sticker{
+        display: none;
+    }
+    .philosophy {
+        margin-top: 20px;
+    }
+    .philosophy2 {
+        height: 573px;
+    }
+    .philosophy1 {
+        padding: 25px 17px 0 13px;
+    }
+    .philosophy-name,
+    .unvisible {
+        display: none;
+    }
+    .philosophy-title {
+        font-size: 40px;
+        line-height: 44px;
+        text-align: center;
+    }
+    .philosophy-text1, .philosophy-text2 {
+        padding-left: 10px;
+    }
+    .philosophy-text1 {
+        padding-top: 26px;
+    }
+    .philosophy2 {
+        overflow: hidden;
+    }
+    .img-philosophy1 {
+        width: 320px;
+        height: 506px;
+        min-width: 100%;
+    }
+    .img-philosophy2 {
+        width: 217px;
+        height: 295px;
+        top: 278px;
+        left: 150px;    
+    }
+    .readmore {
+        padding-top: 51px;
+        padding-left: 212px;
+    }
+    .ireadmore {
+        left: 150px
+    }
+    .italic {
+        font-weight: 400;
+    }
+    .philosophy-title {
+        padding-left: 15px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .philosophy2 {
+        text-align: center;
+    }
+    .booking-name {
+        display: none;
+    }
+    .booking{
+        padding-top: 50px;
+        padding-left: 25px;
+        text-align: center;
+    }
+    form {
+        width: 100%;
+    }
+    .isend {
+        left: 100px;
+    }
+    .booking-text {
+        display: none;
+    }
+    .isend {
+        left: 180px;
+        top: 900px
+        
+    }
+}
