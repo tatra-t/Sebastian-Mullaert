@@ -219,9 +219,11 @@ form div {
     border-left: none;
     border-right: none;
     margin-bottom: 20px;
+    
 }
 label {
     font-family: "OggMedium" ;
+    
 }
 .project-type {
     width: 605px;
@@ -374,6 +376,11 @@ select {
     .philosophy-title {
         padding-left: 15px;
     }
+    .isend {
+        left: 180px;
+        top: 780px
+        
+    }
     
 }
 @media (max-width: 768px) {
@@ -399,7 +406,7 @@ select {
     }
     .isend {
         left: 180px;
-        top: 900px
+        top: 690px
         
     }
 }
